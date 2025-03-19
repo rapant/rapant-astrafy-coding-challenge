@@ -58,6 +58,12 @@ After successful execution, you will see an output similar to:
 Deployment successful! You can access Nginx at: http://container-group-<uuid>.eastus.azurecontainer.io
 ```
 
+Follow this link to see the last deployment
+
+```
+http://container-group-cdbe2291-1103-48c6-8c08-639874f1d5d4.eastus.azurecontainer.io
+```
+
 ## Security Considerations
 
 - Avoid hardcoding credentials in the script. Instead, use Azure Key Vault or environment variables.
